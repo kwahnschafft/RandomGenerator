@@ -2,7 +2,7 @@
 
 Author: _Kiara Wahnschafft, Torres & Co._
 
-URL: http://kwahnschafft-p4.gopagoda.io
+URL: TBD
 
 Date of Deployment: April 22, 2015
 
@@ -28,4 +28,4 @@ ___
 
 ### Additional Features
 + Form Validation
-+ Error 404 Pages
++ Error 404 Page
