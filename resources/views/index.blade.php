@@ -10,7 +10,7 @@
 
 @section('content')
 	<div id = "container">
-		<a href="/text"><div id = "text"><div class="layover">Random Text Generator</div></div></a>
-		<a href="/people"><div id = "person"><div class="layover">Random Person Generator</div></div></a>
+		<a href="/text"><div id = "text"><div class="layover">Read Wise Words</div></div></a>
+		<a href="/people"><div id = "person"><div class="layover">Make New Friends</div></div></a>
 	</div>
 @stop

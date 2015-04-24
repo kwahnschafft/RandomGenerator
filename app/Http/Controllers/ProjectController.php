@@ -9,7 +9,8 @@ class ProjectController extends Controller {
 	}
 	
 	public function getPeople() {
-		return view('peopleForm');
+		$error = "";
+		return view('peopleForm')->with('error',$error);
 	}
 	public function postPeople() {
 		$numberP = Request::input('numberP');
@@ -28,10 +29,12 @@ class ProjectController extends Controller {
 			return view('resultsPeople')->with('firstNames', $names)->with('number', $numberP)->with('birthdays',$birthdays)->with('profiles',$profiles);
 		}
 		else {
-			return redirect('people');
+			$error = "Please Use a Number Between 1 and 10.";
+			return view('peopleForm')->with('error',$error);
 		}
 	}
 	public function getText($error = '') {
+		$error = "";
 		return view('textForm')->with('error', $error);
 	}
 	
@@ -43,7 +46,8 @@ class ProjectController extends Controller {
 			return view('resultsText')->with('paragraphs',$paragraphs)->with('number',$numberT);
 		}
 		else {
-			return redirect('text');
+			$error = "Please Use a Number Between 1 and 10.";
+			return view('textForm')->with('error',$error);
 		}
 	}
 	

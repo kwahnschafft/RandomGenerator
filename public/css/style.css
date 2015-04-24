@@ -16,6 +16,7 @@ body {
     text-align: center;
     font-size:1.5em;
     font-weight: bold;
+    border: 5px solid 	#fcfdcd;
 }
 
 br {
@@ -74,7 +75,7 @@ footer {
 }
 
 #peopleForm {
-    height:135px;
+    height:133px;
     border: 1px solid black;
 }
 
@@ -102,13 +103,18 @@ input {
 }
 #text{
     background-image: url('../img/one1.jpg');
+    float:left;
+    margin-left:-10px;
 }
 #person{
     background-image: url('../img/two2.jpg');
+    float:right;
+    margin-right:-20px;
 }
 
 #person:hover,#text:hover {
     color:#d1d1f9;
+    border: 5px solid #d1d1f9;
 }
 .layover {
     background-color: #000000;
@@ -135,10 +141,9 @@ a {
 }
 
 #container {
-    width: 700px;
+    width:700px;
     height:350px;
     display: flex;
     align-items:center;
     margin:auto;
-    justify-content:space-around;
 }
