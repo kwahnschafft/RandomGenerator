@@ -33,7 +33,7 @@ class ProjectController extends Controller {
 			return view('peopleForm')->with('error',$error);
 		}
 	}
-	public function getText($error = '') {
+	public function getText() {
 		$error = "";
 		return view('textForm')->with('error', $error);
 	}

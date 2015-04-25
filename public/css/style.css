@@ -19,9 +19,6 @@ body {
     border: 5px solid 	#fcfdcd;
 }
 
-br {
-}
-
 .form {
     background-color: #cff1fb;
     padding:10px;
@@ -51,7 +48,7 @@ br {
 }
 
 footer {
-    position: fixed;
+   position: fixed;
    height:15px;
    bottom:0%;
    font-size:0.7em;
@@ -79,6 +76,11 @@ footer {
     border: 1px solid black;
 }
 
+#textForm {
+    height:60px;
+    border: 1px solid black;
+}
+
 .number {
     display: flex;
     flex-direction:column;
@@ -88,10 +90,6 @@ footer {
     width:200px;
 }
 
-#textForm {
-    height:60px;
-    border: 1px solid black;
-}
 input {
     width: 60px;
 }
@@ -123,8 +121,6 @@ input {
     left: 0;
     width: 100%;
 }
-
-
 
 a {
     text-decoration: none;
